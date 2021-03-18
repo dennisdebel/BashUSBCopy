@@ -28,6 +28,6 @@ Create log file (according to the configuration in usbhook.sh) > `sudo touch /va
 
 #### In usbhook.sh :
 * Don't forget `chmod +x usbhook.sh`
-* Edit the path `DEST` (line 26) according to the destination folder that you want to copy your files to
+* Edit the path `DEST` (line 28) according to the destination folder that you want to copy your files to
 * Edit the `mount` command (line 40) if you want to use ntfs partition
-* Edit the user `USERNAME` to reflect your own username (`pi` in my case), change it in the `sudo` command at line 51 if you want to see notification on desktop
+* Edit the user `USERNAME` to reflect your own username (`pi` in my case), change it in the `sudo` command at line 58 if you want to see notification on desktop
