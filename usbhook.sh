@@ -55,6 +55,6 @@ rm -r /tmp/"$DEVICE"
 echo "Copy to $DEVICE  >> Done !"
 
 export DISPLAY=:0
-#sudo -u pi notify-send "Copy to $DEVICE >> Done !" -t 5000
+#sudo -u USERNAME notify-send "Copy to $DEVICE >> Done !" -t 5000
 
 exit 0
